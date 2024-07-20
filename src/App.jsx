@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
@@ -15,7 +15,6 @@ import StudentPortalPage from './pages/StudentPortalPage';
 import NewsPage from './pages/NewsPage';
 
 const App = () => (
-  <Router>
     <div id="root">
       <Navbar />
       <div className="main-content">
@@ -35,7 +34,6 @@ const App = () => (
       </div>
       <Footer />
     </div>
-  </Router>
 );
 
 export default App;
