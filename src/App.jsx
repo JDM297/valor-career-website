@@ -16,21 +16,25 @@ import NewsPage from './pages/NewsPage';
 
 const App = () => (
   <Router>
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/about" element={<AboutPage />} />
-      <Route path="/programs" element={<ProgramsPage />} />
-      <Route path="/locations" element={<LocationsPage />} />
-      <Route path="/admissions" element={<AdmissionsPage />} />
-      <Route path="/financial-aid" element={<FinancialAidPage />} />
-      <Route path="/career-evaluation" element={<CareerEvaluationPage />} />
-      <Route path="/request-info" element={<RequestInfoPage />} />
-      <Route path="/schedule-tour" element={<ScheduleTourPage />} />
-      <Route path="/student-portal" element={<StudentPortalPage />} />
-      <Route path="/news" element={<NewsPage />} />
-    </Routes>
-    <Footer />
+    <div id="root">
+      <Navbar />
+      <div className="main-content">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/programs" element={<ProgramsPage />} />
+          <Route path="/locations" element={<LocationsPage />} />
+          <Route path="/admissions" element={<AdmissionsPage />} />
+          <Route path="/financial-aid" element={<FinancialAidPage />} />
+          <Route path="/career-evaluation" element={<CareerEvaluationPage />} />
+          <Route path="/request-info" element={<RequestInfoPage />} />
+          <Route path="/schedule-tour" element={<ScheduleTourPage />} />
+          <Route path="/student-portal" element={<StudentPortalPage />} />
+          <Route path="/news" element={<NewsPage />} />
+        </Routes>
+      </div>
+      <Footer />
+    </div>
   </Router>
 );
 
