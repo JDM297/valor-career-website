@@ -10,18 +10,18 @@ const ProgramsPage = () => (
         </p>
         <div className="flex flex-wrap justify-center space-x-4">
           <div className="bg-gray-100 p-4 rounded shadow hover:shadow-lg max-w-xs mb-4">
-            <h3 className="text-xl font-bold mb-2">ITSA Program</h3>
-            <p>Learn the essentials of IT security and administration.</p>
+            <h3 className="text-xl font-bold mb-2">Program 1</h3>
+            <p>Insert Description here</p>
             <a href="/programs/itsa" className="text-blue-500 hover:underline" role="button">Learn More</a>
           </div>
           <div className="bg-gray-100 p-4 rounded shadow hover:shadow-lg max-w-xs mb-4">
-            <h3 className="text-xl font-bold mb-2">Cyber Warrior Program</h3>
-            <p>Gain in-demand cybersecurity skills and certifications.</p>
+            <h3 className="text-xl font-bold mb-2">Program 2</h3>
+            <p>Insert description here</p>
             <a href="/programs/cwp" className="text-blue-500 hover:underline" role="button">Learn More</a>
           </div>
           <div className="bg-gray-100 p-4 rounded shadow hover:shadow-lg max-w-xs mb-4">
-            <h3 className="text-xl font-bold mb-2">Cyber Security Specialist</h3>
-            <p>Protect networks and data with advanced security training.</p>
+            <h3 className="text-xl font-bold mb-2">Program 3</h3>
+            <p>Insert description here</p>
             <a href="/programs/css" className="text-blue-500 hover:underline" role="button">Learn More</a>
           </div>
         </div>

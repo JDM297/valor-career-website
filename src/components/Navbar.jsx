@@ -49,7 +49,7 @@ const Navbar = () => {
       <div className="md:hidden z-50" onClick={toggleMenu}>
         {menuOpen ? <FaTimes className="h-6 w-6" /> : <FaBars className="h-6 w-6" />}
       </div>
-      <ul ref={menuRef} className={`navbar-menu fixed top-16 left-0 w-full bg-gray-800 flex flex-col items-start p-4 space-y-4 md:flex md:flex-row md:space-y-0 md:space-x-4 md:static md:h-auto md:bg-transparent ${menuOpen ? 'block' : 'hidden'}`}>
+      <ul ref={menuRef} className={`navbar-menu fixed top-16 left-0 bg-gray-800 flex flex-col items-start p-4 space-y-4 md:flex md:flex-row md:space-y-0 md:space-x-4 md:static md:h-auto md:bg-transparent ${menuOpen ? 'block' : 'hidden'}`}>
         <li><Link to="/about" className="hover:text-gray-400" onClick={closeMenu}>About</Link></li>
         <li><Link to="/programs" className="hover:text-gray-400" onClick={closeMenu}>Programs</Link></li>
         <li><Link to="/locations" className="hover:text-gray-400" onClick={closeMenu}>Locations</Link></li>

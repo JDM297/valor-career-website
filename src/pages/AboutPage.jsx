@@ -10,15 +10,10 @@ const AboutPage = () => (
         <p className="text-lg mb-6">
           At Valor Career, we are dedicated to providing comprehensive IT education and lifelong career support to help you succeed in the tech industry.
         </p>
-        <div className="flex justify-center space-x-4">
-          <a href="/get-started/free-career-evaluation" className="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600" role="button">Free Career Evaluation</a>
-          <a href="/get-started/request-information" className="bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600" role="button">Request Information</a>
-        </div>
       </section>
 
       {/* Why Choose Us Section */}
       <section className="text-center mb-8" role="region" aria-labelledby="why-us-section">
-        <h2 id="why-us-section" className="text-3xl font-bold mb-4">Why We Stand Out</h2>
         <div className="flex flex-col md:flex-row justify-around items-center">
           <div className="max-w-xs bg-white p-6 rounded-lg shadow-md mb-4 md:mb-0">
             <h3 className="text-xl font-bold mb-2">In-Demand Certifications</h3>

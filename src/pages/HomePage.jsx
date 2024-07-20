@@ -19,14 +19,14 @@ const HomePage = () => (
       {/* Why Us Section */}
       <section className="text-center mb-8" role="region" aria-labelledby="why-us-section">
         <h2 id="why-us-section" className="text-3xl font-bold mb-4">Why Choose Valor Career?</h2>
-        <p className="text-lg mb-4">We're more than just a school; we're your lifelong partner in IT career development.</p>
+        <p className="text-lg mb-4">We're more than just a school. We're your lifelong partner in IT career development.</p>
         <ul className="list-disc list-inside text-left mx-auto max-w-xl">
           <li className="mb-2">Industry-Recognized Certifications</li>
           <li className="mb-2">Personalized Career Services</li>
           <li className="mb-2">Flexible Learning Options</li>
           <li className="mb-2">No Prior IT Experience Needed</li>
         </ul>
-        <a href="/why-us" className="mt-4 inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600" role="button">Learn More</a>
+        <a href="/about" className="mt-4 inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600" role="button">Learn More</a>
       </section>
 
       {/* Programs Section */}
@@ -34,16 +34,16 @@ const HomePage = () => (
         <h2 id="programs-section" className="text-3xl font-bold mb-4">Our Programs</h2>
         <div className="flex justify-center space-x-4">
           <a href="/programs/itsa" className="bg-gray-100 p-4 rounded shadow hover:shadow-lg" role="button">
-            <h3 className="text-xl font-bold mb-2">ITSA Program</h3>
-            <p>Learn the essentials of IT security and administration.</p>
+            <h3 className="text-xl font-bold mb-2">Program 1</h3>
+            <p>Insert description here</p>
           </a>
           <a href="/programs/cwp" className="bg-gray-100 p-4 rounded shadow hover:shadow-lg" role="button">
-            <h3 className="text-xl font-bold mb-2">Cyber Warrior Program</h3>
-            <p>Gain in-demand cybersecurity skills and certifications.</p>
+            <h3 className="text-xl font-bold mb-2">Program 2</h3>
+            <p>Insert description here</p>
           </a>
           <a href="/programs/css" className="bg-gray-100 p-4 rounded shadow hover:shadow-lg" role="button">
-            <h3 className="text-xl font-bold mb-2">Cyber Security Specialist</h3>
-            <p>Protect networks and data with advanced security training.</p>
+            <h3 className="text-xl font-bold mb-2">Program 3</h3>
+            <p>Insert description here</p>
           </a>
         </div>
       </section>
